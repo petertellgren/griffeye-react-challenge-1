@@ -24,7 +24,7 @@ use the input field from there and center the form and display the robot list
 as a grid. 
 After entering many a few robots, the page should look something like this:
 
-| ![example solution](public/exmaple-solution.png) |
+| ![example solution](public/example-solution.png) |
 |:--:|
 | <b>example solution image</b>|
 
