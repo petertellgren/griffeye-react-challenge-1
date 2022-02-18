@@ -28,4 +28,7 @@ After entering many a few robots, the page should look something like this:
 |:--:|
 | <b>example solution image</b>|
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-af86rk)
+## Participate
+To complete the challenge just click the link below to fork this project on stackblitz and code away:
+[Fork on StackBlitz ⚡️](https://stackblitz.com/fork/react-ts-af86rk)
+when you're happy with the solution just make sure you save it and send the link over to us.
