@@ -1,26 +1,23 @@
 import React from 'react';
 
 import Button from '@mui/material/Button';
-import Instructions from './Instructions';
+import Container from '@mui/material/Container';
+import Readme from './Readme';
 import Solution from './Solution';
 
 const App = () => {
-  const [instructionsOpen, setInstructionsOpen] =
-    React.useState<boolean>(false);
+  const [readmeOpen, setReadmeOpen] = React.useState<boolean>(false);
 
-  const toggleInstructions = () => {
-    setInstructionsOpen((oldState) => !oldState);
+  const toggleReadme = () => {
+    setReadmeOpen((oldState) => !oldState);
   };
 
   return (
-    <>
-      <Button onClick={toggleInstructions}>Show Instructions</Button>
-      <Instructions
-        isOpen={instructionsOpen}
-        handleClose={toggleInstructions}
-      />
+    <Container>
+      <Button onClick={toggleReadme}>Show Instructions</Button>
+      <Readme isOpen={readmeOpen} handleClose={toggleReadme} />
       <Solution />
-    </>
+    </Container>
   );
 };
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Modal from '@mui/material/Modal';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
+import Dialog from '@mui/material/Dialog';
 
 type Props = {
   handleClose: () => void;
@@ -20,12 +18,12 @@ const style = {
   p: 4,
 };
 
-const Instructions = ({ handleClose, isOpen = true }: Props) => {
+const Readme = ({ handleClose, isOpen = true }: Props) => {
   return (
-    <Modal open={isOpen} onClose={handleClose}>
+    <Dialog open={isOpen} onClose={handleClose}>
       <Box sx={style}></Box>
-    </Modal>
+    </Dialog>
   );
 };
 
-export default Instructions;
+export default Readme;
